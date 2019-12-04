@@ -1,0 +1,5 @@
+requests
+matplotlib
+arrow
+numpy
+tabulate
