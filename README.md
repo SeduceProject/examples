@@ -26,7 +26,7 @@ You should be able to run examples now!
 
 ## First example: displaying few data on ecotype-42
 
-In this first example, several metrics is fetch from the server ecotype-42 (front temperature, back temperature and the power consumption from its two outlets). The script will display the minimum, the maximum and the average values for each of these metrics. The code is available in [examples/get_temp_and_power_data.py](examples/get_temp_and_power_data.py) of the cloned git repository.
+In this first example, several metrics is fetch from the server ecotype-42 (front temperature, back temperature and the power consumption from its two outlets). The script will display the minimum, the maximum and the average values for each of these metrics. The code is available in [examples/get_temp_and_power_data.py](https://github.com/SeduceProject/examples/blob/master/examples/get_temp_and_power_data.py) of the cloned git repository.
 
 Run the script with the following command:
 ```shell
@@ -45,7 +45,7 @@ max   159                  18.31            33.5
 
 ## Second example: displaying few data on ecotype-42
 
-In this second example, several metrics is fetch from the server ecotype-42 (front temperature, back temperature and the power consumption from its two outlets). The script then plots all the metrics in a matplotlib figure. The code is available in [examples/draw_power_and_temp_ecotype_42.py](examples/draw_power_and_temp_ecotype_42.py) of the cloned git repository.
+In this second example, several metrics is fetch from the server ecotype-42 (front temperature, back temperature and the power consumption from its two outlets). The script then plots all the metrics in a matplotlib figure. The code is available in [examples/draw_power_and_temp_ecotype_42.py](https://github.com/SeduceProject/examples/blob/master/examples/draw_power_and_temp_ecotype_42.py) of the cloned git repository.
 
 Run the script with the following command:
 ```shell
@@ -53,4 +53,4 @@ python3 examples/draw_power_and_temp_ecotype_42.py
 ``` 
 
 It should produce a figure that looks like:
-![figure_example_2](/assets/img/tutorial/figure_example2.png)
+![figure_example_2](https://raw.githubusercontent.com/SeduceProject/examples/master/assets/img/figure_example2.png)
